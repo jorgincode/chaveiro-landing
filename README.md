@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+## 📄 `README.md` bonitão para o projeto `Chaveiro Nação`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔐 Chaveiro Nação
 
-Currently, two official plugins are available:
+Landing page moderna e responsiva para o Chaveiro Nação, com foco em atendimento rápido, serviços automotivos e segurança residencial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](https://via.placeholder.com/1200x600?text=Chaveiro+Nacao+Landing+Page)
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Tailwind CSS](https://tailwindcss.com/) — estilização rápida e responsiva
+- HTML5 + CSS3 — estrutura sem frameworks
+- GitHub Pages — deploy gratuito e direto
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Estrutura do projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+📁 chaveiro-landing/
+├── index.html
+├── README.md
+└── assets/ (opcional para imagens, ícones, etc.)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📱 Responsividade
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A página se adapta perfeitamente a celulares, tablets e desktops. Ideal para clientes que acessam via WhatsApp ou redes sociais.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📍 Seções da página
+
+- **Header fixo** com navegação
+- **Hero** com chamada para ação
+- **Serviços** com destaque visual
+- **Sobre nós** com imagem da equipe
+- **Avaliações reais**
+- **Localização com mapa**
+- **Contato via WhatsApp e Instagram**
+- **Rodapé institucional**
+
+## 📤 Deploy
+
+Este projeto está publicado via GitHub Pages:
+
+🔗 [Acesse aqui](https://jorgincode.github.io/chaveiro-landing/)
+
+## 🛠️ Como rodar localmente
+
+```bash
+git clone https://github.com/jorgincode/chaveiro-landing.git
+cd chaveiro-landing
+# Abra o index.html no navegador
 ```
+
+## 📬 Contato
+
+Para orçamentos ou dúvidas:
+
+📱 WhatsApp: [Clique aqui](https://wa.me/SEUNUMERO)  
+📸 Instagram: [@SEUPERFIL](https://instagram.com/SEUPERFIL)
+
+---
+
+Feito com ❤️ por [Jorge](https://github.com/jorgincode)
