@@ -1,7 +1,6 @@
+---
 deployment:
   tasks:
-    # Limpa o public_html
-    - /bin/rm -rf /home/jorge69/public_html/*
-
-    # Copia os arquivos já buildados (dist) para o public_html
-    - /bin/cp -R /home/jorge69/repo/dist/* /home/jorge69/public_html/
+    - export DEPLOYPATH=/home/jorge69/public_html/
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/cp -R dist/* $DEPLOYPATH
